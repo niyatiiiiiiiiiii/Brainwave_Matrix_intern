@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Innovators</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #4facfe, #00f2fe);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .hero h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+
+        .hero button {
+            background: white;
+            color: #00aaff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1.2em;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+
+        .hero button:hover {
+            background: #f0f0f0;
+        }
+
+        /* Features Section */
+        .features {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .features h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .feature-list {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .feature {
+            background: white;
+            padding: 20px;
+            width: 300px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .feature h3 {
+            font-size: 1.5em;
+            color: #007acc;
+        }
+
+        .feature p {
+            font-size: 1em;
+            color: #555;
+        }
+
+        /* Testimonials Section */
+        .testimonials {
+            background: #007acc;
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .testimonials h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .testimonial {
+            background: white;
+            color: #333;
+            padding: 15px;
+            border-radius: 10px;
+            margin: 10px auto;
+            width: 50%;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Call to Action Section */
+        .cta {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .cta h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .cta button {
+            background: #007acc;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1.2em;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+
+        .cta button:hover {
+            background: #005f99;
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <header class="hero">
+        <h1>Welcome to Tech Innovators</h1>
+        <p>Exploring the latest advancements in technology.</p>
+        <button onclick="getStarted()">Discover More</button>
+    </header>
+    
+    <!-- Features Section -->
+    <section class="features">
+        <h2>Our Focus Areas</h2>
+        <div class="feature-list">
+            <div class="feature">
+                <h3>Artificial Intelligence</h3>
+                <p>Unleashing the power of AI to transform industries.</p>
+            </div>
+            <div class="feature">
+                <h3>Blockchain Technology</h3>
+                <p>Revolutionizing digital transactions and security.</p>
+            </div>
+            <div class="feature">
+                <h3>Cybersecurity</h3>
+                <p>Protecting data and privacy in the digital age.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <h2>What Experts Say</h2>
+        <div class="testimonial">"Tech Innovators keeps me updated with the latest breakthroughs!"</div>
+        <div class="testimonial">"A must-visit platform for tech enthusiasts and professionals."</div>
+    </section>
+    
+    <!-- Call to Action Section -->
+    <section class="cta">
+        <h2>Stay Ahead in Tech!</h2>
+        <p>Subscribe to our newsletter for the latest tech insights.</p>
+        <button onclick="signUp()">Subscribe Now</button>
+    </section>
+    
+    <script>
+        function getStarted() {
+            alert("Explore the world of tech innovations!");
+        }
+
+        function signUp() {
+            alert("Thank you for subscribing!");
+        }
+    </script>
+</body>
+</html>
